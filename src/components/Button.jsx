@@ -5,6 +5,8 @@ const Button = ({
   textColor,
   borderColor,
   fullWidth,
+  aos,
+  aosDelay,
 }) => {
   return (
     <button
@@ -14,6 +16,8 @@ const Button = ({
           ? `${backgroundColor} ${textColor} ${borderColor}`
           : "bg-coral-red text-white border-coral-red"
       } rounded-full ${fullWidth && "w-full"}`}
+      data-aos={aos}
+      data-aos-delay={aosDelay}
     >
       {label}
 

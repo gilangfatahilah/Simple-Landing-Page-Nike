@@ -12,31 +12,51 @@ const SpecialOffer = () => {
           width={773}
           height={687}
           className="object-contain w-full"
+          data-aos="fade-right"
+          data-aos-delay="250"
         />
       </div>
 
       <div className="flex flex-1 flex-col ">
-        <h2 className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg">
+        <h2
+          className="font-palanquin text-4xl capitalize font-bold lg:max-w-lg"
+          data-aos="fade-left"
+        >
           <span className="text-coral-red inline-block mt-3">Special</span>{" "}
           Offers
         </h2>
-        <p className="mt-4 lg:max-w-lg info-text">
+        <p
+          className="mt-4 lg:max-w-lg info-text"
+          data-aos="fade-left"
+          data-aos-delay="250"
+        >
           Embark on a shoping journey that redefines your experience with
           unbeatable deals. From premier selections to incredible savings, we
           offer unparalleled value that sets us apart.
         </p>
-        <p className="mt-6 lg:max-w-lg info-text">
+        <p
+          className="mt-6 lg:max-w-lg info-text"
+          data-aos="fade-left"
+          data-aos-delay="250"
+        >
           Navigate a realm of possibilities designed to fulfill your unique
           desires, surpassing the loftiest expectations. Your journey with us is
           nothing short of exceptional. Our
         </p>
         <div className="mt-11 flex flex-wrap gap-4">
-          <Button label="Shop Now" iconURL={arrowRight} />
+          <Button
+            label="Shop Now"
+            iconURL={arrowRight}
+            aos="fade-left"
+            aosDelay="500"
+          />
           <Button
             label="Learn More"
             backgroundColor="bg-white"
             borderColor="border-slate-gray"
             textColor="text-slate-gray"
+            aos="fade-left"
+            aosDelay="750"
           />
         </div>
       </div>

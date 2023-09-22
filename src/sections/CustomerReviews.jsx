@@ -4,10 +4,17 @@ import { reviews } from "../constants";
 const CustomerReviews = () => {
   return (
     <section className="max-container">
-      <h3 className="font-palanquin text-center text-4xl font-bold">
+      <h3
+        className="font-palanquin text-center text-4xl font-bold"
+        data-aos="fade-up"
+      >
         What Our <span className="text-coral-red">Customers</span> Say?
       </h3>
-      <p className="info-text m-auto mt-4 max-w-lg text-center">
+      <p
+        className="info-text m-auto mt-4 max-w-lg text-center"
+        data-aos="fade-up"
+        data-aos-delay="250"
+      >
         Hear genuine stories from our satisfied customers about their
         exceptional experience with us.
       </p>

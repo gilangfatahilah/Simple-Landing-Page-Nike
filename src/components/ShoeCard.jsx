@@ -1,4 +1,10 @@
-const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
+const ShoeCard = ({
+  imgURL,
+  changeBigShoeImage,
+  bigShoeImg,
+  aos,
+  aosDelay,
+}) => {
   const handleClick = () => {
     if (bigShoeImg !== imgURL.bigShoe) {
       changeBigShoeImage(imgURL.bigShoe);
@@ -21,6 +27,8 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
           width={127}
           height={103.34}
           className="object-contain"
+          data-aos={aos}
+          data-aos-delay={aosDelay}
         />
       </div>
     </div>

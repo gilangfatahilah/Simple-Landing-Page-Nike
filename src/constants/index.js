@@ -1,10 +1,10 @@
 import {
-  facebook,
+  linkedin,
   instagram,
   shieldTick,
   support,
   truckFast,
-  twitter,
+  github,
 } from "../assets/icons";
 import {
   bigShoe1,
@@ -134,13 +134,25 @@ export const footerLinks = [
     title: "Get in touch",
     links: [
       { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      { name: "+6281231638432", link: "tel:+92554862354" },
     ],
   },
 ];
 
 export const socialMedia = [
-  { src: facebook, alt: "facebook logo" },
-  { src: twitter, alt: "twitter logo" },
-  { src: instagram, alt: "instagram logo" },
+  {
+    src: linkedin,
+    alt: "linkedin logo",
+    link: "https://www.linkedin.com/in/gilang-fatahilah/",
+  },
+  {
+    src: github,
+    alt: "github logo",
+    link: "https://github.com/gilangfatahilah",
+  },
+  {
+    src: instagram,
+    alt: "instagram logo",
+    link: "https://www.instagram.com/gilanqf",
+  },
 ];
