@@ -55,7 +55,7 @@ const Footer = () => {
             height={20}
             className="rounde-full m-0"
           />
-          <p>Copyright. All rights reserved.</p>
+          <p>Gilang Fatahilah. All rights reserved.</p>
         </div>
         <p className="font-montserrat cursor-pointer text-white-400">
           Terms & Condition
